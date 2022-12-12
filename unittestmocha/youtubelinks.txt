@@ -1,0 +1,15 @@
+unit testing
+https://www.codecademy.com/resources/docs/general/unit-testing 
+
+mocha organize
+https://mochajs.org/
+
+Boneskull from git 
+https://www.youtube.com/watch?v=Bs68k6xfR3E 
+
+hindi
+https://youtu.be/d-QvcAc4V3I 
+
+
+codeacademy 
+https://www.codecademy.com/courses/learn-javascript-unit-testing/lessons/automate-organize-tests/exercises/teardown

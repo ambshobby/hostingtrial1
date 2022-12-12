@@ -1,0 +1,69 @@
+<html>
+   <script src="add.js" >
+      
+
+
+   </script>
+   <script src="logicofmindreader.js"></script>
+   <script src="random.js"></script>
+   <body>  
+      x= 
+      <p id="nn1"></p>
+      y=
+      <p id="nn2"></p>
+      result=
+      <p id ="result"></p>
+      <input type="text" id="n1" >
+      <input type="text" id="n2" >
+      <button onclick="power()">power</button>
+      <br/>
+
+      <button onclick="add()">Addition</button>
+      <button onclick="sub()">sub</button>
+      <script>
+         function power() 
+         {
+           var x = document.getElementById("n1").value;
+           var y = document.getElementById("n2").value;
+           document.getElementById("nn1").innerHTML = x;
+           document.getElementById("nn2").innerHTML = y;
+
+           var x1=Number(x);
+           var y1=Number(y);
+           
+
+           document.getElementById("result").innerHTML =Math.pow(x1,y1) ;
+         }
+
+         function add()
+         {
+            var x = document.getElementById("n1").value;
+           var y = document.getElementById("n2").value;
+           document.getElementById("nn1").innerHTML = x;
+           document.getElementById("nn2").innerHTML = y;
+
+           var x1=Number(x);
+           var y1=Number(y);
+           
+
+           document.getElementById("result").innerHTML =x1+y1 ;
+
+         }
+         function sub()
+         {
+               
+               
+               let img = document.createElement("img")
+               img.src = "imageee.png";
+
+               img.style.border = "10px solid orange";
+               img.style.borderRadius = "10px";
+
+               document.body.appendChild(img);
+
+         }
+
+         </script>
+      <image id="img"></image>
+   </body>
+</html>
